@@ -19,6 +19,8 @@ dependencies {
     implementation("org.apache.camel.quarkus:camel-quarkus-jackson")
     implementation("org.apache.camel.quarkus:camel-quarkus-http")
     implementation("org.apache.camel.quarkus:camel-quarkus-mail")
+
+    implementation("io.quarkus:quarkus-rest")
     implementation("io.quarkus:quarkus-arc")
     testImplementation("io.quarkus:quarkus-junit5")
 }

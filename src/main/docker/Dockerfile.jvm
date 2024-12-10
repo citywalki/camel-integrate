@@ -7,7 +7,7 @@
 #
 # Then, build the image with:
 #
-# docker build -f src/main/docker/Dockerfile.jvm -t quarkus/camel-integrate-jvm .
+# docker build -f src/main/docker/Dockerfile.jvm -t iamcyw/camel-integrate .
 #
 # Then run the container using:
 #

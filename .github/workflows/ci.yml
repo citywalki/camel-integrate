@@ -32,4 +32,4 @@ jobs:
       - name: Push Docker image
         run: |
           echo ${{ secrets.DOCKERHUB_TOKEN }} | docker login -u ${{ secrets.DOCKERHUB_USERNAME }} --password-stdin
-          docker push ${{ secrets.DOCKERHUB_USERNAME }}/${POM_ARTIFACT}:${POM_VERSION}
+          docker push ${{ secrets.DOCKERHUB_USERNAME }}/camel-integrate:latest
